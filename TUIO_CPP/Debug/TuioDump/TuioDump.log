@@ -1,0 +1,33 @@
+﻿Build started 8/5/2014 5:44:04 PM.
+     1>Project "C:\Users\ifeiyuyu\Documents\TUIO_CPP\TuioDump.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TuioDump\TuioDump.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\TUIO /I.\oscpack /ZI /nologo /W2 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D ENDIANESS=OSC_HOST_LITTLE_ENDIAN /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\TuioDump\\" /Fd"Debug\TuioDump\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TuioDump.cpp
+         TuioDump.cpp
+     1>c:\users\ifeiyuyu\documents\tuio_cpp\tuiodump.cpp(282): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ifeiyuyu\documents\tuio_cpp\tuiodump.cpp(329): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ifeiyuyu\documents\tuio_cpp\tuiodump.cpp(351): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TuioDump.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib WINMM.LIB opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_haartraining_engined.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TuioDump\TuioDump.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\TUIO_CPP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TuioDump.lib" /MACHINE:X86 Debug\TuioDump\OscOutboundPacketStream.obj
+         Debug\TuioDump\TuioClient.obj
+         Debug\TuioDump\TuioDump.obj
+         Debug\TuioDump\TuioServer.obj
+         Debug\TuioDump\TuioTime.obj
+         Debug\TuioDump\NetworkingUtils.obj
+         Debug\TuioDump\OscPrintReceivedElements.obj
+         Debug\TuioDump\OscReceivedElements.obj
+         Debug\TuioDump\OscTypes.obj
+         Debug\TuioDump\UdpSocket.obj
+     1>OscOutboundPacketStream.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         TuioDump.vcxproj -> C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\TuioDump.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\TuioDump.exe;#1" /manifest Debug\TuioDump\TuioDump.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TuioDump\TuioDump.unsuccessfulbuild".
+         Touching "Debug\TuioDump\TuioDump.lastbuildstate".
+     1>Done Building Project "C:\Users\ifeiyuyu\Documents\TUIO_CPP\TuioDump.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35

@@ -1,0 +1,47 @@
+﻿Build started 8/5/2014 5:15:57 PM.
+     1>Project "C:\Users\ifeiyuyu\Documents\TUIO_CPP\libTUIO.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libTUIO\libTUIO.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\TUIO /I.\oscpack /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W2 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libTUIO\\" /Fd"Debug\libTUIO\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt oscpack\ip\win32\NetworkingUtils.cpp oscpack\osc\OscOutboundPacketStream.cpp oscpack\osc\OscPrintReceivedElements.cpp oscpack\osc\OscReceivedElements.cpp oscpack\osc\OscTypes.cpp oscpack\ip\win32\UdpSocket.cpp TUIO\TuioClient.cpp TUIO\TuioServer.cpp TUIO\TuioTime.cpp /clr:nostdlib 
+         NetworkingUtils.cpp
+         OscOutboundPacketStream.cpp
+         OscPrintReceivedElements.cpp
+         OscReceivedElements.cpp
+         OscTypes.cpp
+         UdpSocket.cpp
+         TuioClient.cpp
+         TuioServer.cpp
+         TuioTime.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\TUIO /I.\oscpack /Zi /clr /nologo /W2 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libTUIO\\" /Fd"Debug\libTUIO\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\ifeiyuyu\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\libTUIO.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib winmm.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_haartraining_engined.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libTUIO\libTUIO.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\libTUIO.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\libTUIO\NetworkingUtils.obj
+         Debug\libTUIO\OscOutboundPacketStream.obj
+         Debug\libTUIO\OscPrintReceivedElements.obj
+         Debug\libTUIO\OscReceivedElements.obj
+         Debug\libTUIO\OscTypes.obj
+         Debug\libTUIO\UdpSocket.obj
+         Debug\libTUIO\TuioClient.obj
+         Debug\libTUIO\TuioServer.obj
+         Debug\libTUIO\TuioTime.obj
+         "Debug\libTUIO\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>opencv_haartraining_engined.lib(cvboost.obj) : warning LNK4099: PDB 'opencv_haartraining_engined.pdb' was not found with 'opencv_haartraining_engined.lib(cvboost.obj)' or at 'C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\opencv_haartraining_engined.pdb'; linking object as if no debug info
+     1>opencv_haartraining_engined.lib(cvcommon.obj) : warning LNK4099: PDB 'opencv_haartraining_engined.pdb' was not found with 'opencv_haartraining_engined.lib(cvcommon.obj)' or at 'C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\opencv_haartraining_engined.pdb'; linking object as if no debug info
+     1>opencv_haartraining_engined.lib(cvhaarclassifier.obj) : warning LNK4099: PDB 'opencv_haartraining_engined.pdb' was not found with 'opencv_haartraining_engined.lib(cvhaarclassifier.obj)' or at 'C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\opencv_haartraining_engined.pdb'; linking object as if no debug info
+     1>opencv_haartraining_engined.lib(cvhaartraining.obj) : warning LNK4099: PDB 'opencv_haartraining_engined.pdb' was not found with 'opencv_haartraining_engined.lib(cvhaartraining.obj)' or at 'C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\opencv_haartraining_engined.pdb'; linking object as if no debug info
+     1>opencv_haartraining_engined.lib(cvsamples.obj) : warning LNK4099: PDB 'opencv_haartraining_engined.pdb' was not found with 'opencv_haartraining_engined.lib(cvsamples.obj)' or at 'C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\opencv_haartraining_engined.pdb'; linking object as if no debug info
+         libTUIO.vcxproj -> C:\Users\ifeiyuyu\Documents\TUIO_CPP\Debug\libTUIO.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\libTUIO.dll;#2" /manifest Debug\libTUIO\libTUIO.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\libTUIO\libTUIO.unsuccessfulbuild".
+         Touching "Debug\libTUIO\libTUIO.lastbuildstate".
+     1>Done Building Project "C:\Users\ifeiyuyu\Documents\TUIO_CPP\libTUIO.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.13
